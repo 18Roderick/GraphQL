@@ -14,9 +14,7 @@ var root = {
   hello: () => {
     return 'Hello world!';
   },
-  server: () =>{
-    return 'node js';
-  },
+
 };
 
 var app = express();
