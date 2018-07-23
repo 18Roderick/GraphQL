@@ -1,12 +1,14 @@
 'use strict'
+
 const express = require('express')
-const app = express()
+
+const app = express();
 
 const expressGraphql = require('express-graphql')
 
 const { buildSchema } = require('graphql')
 
-const { courses } = require('./data.json')
+const { courses } = require('./data.json');
 
 const schema = buildSchema(`
     type Query {
